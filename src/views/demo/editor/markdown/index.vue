@@ -36,7 +36,7 @@
 **加粗**
 *斜体*
 ~~删除线~~
-[链接](https://github.com/vbenjs/vue-vben-admin)
+
 ↓分割线↓
 
 ---

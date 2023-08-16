@@ -33,6 +33,10 @@ export enum MenuModeEnum {
 }
 
 export enum MenuSplitTyeEnum {
+
+
+
+
   NONE,
   TOP,
   LEFT,

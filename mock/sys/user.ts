@@ -5,11 +5,11 @@ export function createFakeUserList() {
   return [
     {
       userId: '1',
-      username: 'vben',
-      realName: 'Vben Admin',
+      username: 'admin',
+      realName: 'Admin',
       avatar: '',
       desc: 'manager',
-      password: '123456',
+      password: 'admin',
       token: 'fakeToken1',
       homePath: '/dashboard/analysis',
       roles: [
@@ -54,6 +54,7 @@ export default [
       const checkUser = createFakeUserList().find(
         (item) => item.username === username && password === item.password,
       );
+      console.log(checkUser)
       if (!checkUser) {
         return resultError('Incorrect account or password！');
       }

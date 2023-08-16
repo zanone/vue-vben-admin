@@ -12,7 +12,7 @@ import {
 import { SIDE_BAR_BG_COLOR_LIST, HEADER_PRESET_BG_COLOR_LIST } from './designSetting';
 
 const primaryColor = '#0960bd';
-
+// const primaryColor = '#e74242';
 // ! You need to clear the browser cache after the change
 const setting: ProjectConfig = {
   // Whether to show the configuration button
@@ -65,11 +65,13 @@ const setting: ProjectConfig = {
     // theme
     theme: ThemeEnum.LIGHT,
     // Whether to enable the lock screen function
-    useLockPage: true,
+    // useLockPage: true,
+    useLockPage: false,
     // Whether to show the full screen button
     showFullScreen: true,
     // Whether to show the document button
-    showDoc: true,
+    showDoc: false,
+    // showDoc: true,
     // Whether to show the notification button
     showNotice: true,
     // Whether to display the menu search

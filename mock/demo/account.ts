@@ -2,8 +2,8 @@ import { MockMethod } from 'vite-plugin-mock';
 import { resultSuccess, resultError } from '../_util';
 import { ResultEnum } from '../../src/enums/httpEnum';
 
-const userInfo = {
-  name: 'Vben',
+const      userInfo = {
+  name: 'admin',
   userid: '00000001',
   email: 'test@gmail.com',
   signature: '海纳百川，有容乃大',
@@ -14,6 +14,7 @@ const userInfo = {
     {
       key: '0',
       label: '很有想法的',
+
     },
     {
       key: '1',

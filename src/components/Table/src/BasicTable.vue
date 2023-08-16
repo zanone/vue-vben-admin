@@ -113,8 +113,7 @@
 
       const getProps = computed(() => {
         return { ...props, ...unref(innerPropsRef) } as BasicTableProps;
-      });
-
+      })
       const isFixedHeightPage = inject(PageWrapperFixedHeightKey, false);
       watchEffect(() => {
         unref(isFixedHeightPage) &&

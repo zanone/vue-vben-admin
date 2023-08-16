@@ -27,7 +27,7 @@ export function resultPageSuccess<T = any>(
   };
 }
 
-export function resultError(
+export function  resultError(
   message = 'Request failed',
   { code = ResultEnum.ERROR, result = null } = {},
 ) {
